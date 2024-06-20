@@ -1,0 +1,95 @@
+p {
+  color: #717fa6;
+  line-height: 1.67;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.container {
+  padding: 32px 24px;
+  background-color: #fff;
+  text-align: center;
+}
+h1 {
+  font-size: 22px;
+  font-weight: 900;
+  color: #1f2e55;
+}
+.description {
+  margin: 16px 0 24px;
+}
+.annualPlan-info {
+  display: flex;
+  width: 100%;
+  padding: 17px 16px 16px;
+  background-color: #f7f9ff;
+  border-radius: 11px;
+}
+.annualPlan-info img {
+  width: 48px;
+  height: 48px;
+}
+.annual-change {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 20px;
+  align-items: center;
+}
+.annual-change div {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+.annual-text {
+  font-size: 14px;
+  font-weight: 900;
+  color: #1f2e55;
+  text-align: center;
+}
+.change-btn {
+  height: 20px;
+  font-size: 13px;
+  font-weight: bold;
+  color: #382ae1;
+  text-decoration: underline;
+}
+.change-btn,
+.payment,
+.cancel {
+  cursor: pointer;
+}
+
+.change-btn:hover {
+  color: #766cf1;
+}
+.payment:hover {
+  background-color: #766cf1;
+}
+
+.payment {
+  width: 100%;
+  height: 20px;
+  color: #fff;
+  background-color: #382ae1;
+  padding: 15px 0 15px 0;
+  border-radius: 11px;
+  box-shadow: 0 20px 20px 0 rgba(56, 42, 225, 0.19);
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 900;
+  margin: 24px 0 24px;
+}
+.cancel {
+  margin: auto;
+  width: 105px;
+  height: 20px;
+  color: #717fa6;
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 900;
+}
+
+@media only screen and (min-width: 1440px) {
+  .container {
+    padding: 45px 48px;
+  }
+}

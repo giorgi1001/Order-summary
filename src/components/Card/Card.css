@@ -1,0 +1,16 @@
+.card {
+  width: 327px;
+  border-radius: 20px;
+  overflow: hidden;
+  margin: auto;
+}
+.hero-img {
+  width: 100%;
+  display: block;
+}
+
+@media only screen and (min-width: 1440px) {
+  .card {
+    width: 450px;
+  }
+}
