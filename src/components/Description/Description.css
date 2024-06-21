@@ -2,54 +2,54 @@ p {
   color: #717fa6;
   line-height: 1.67;
   font-weight: 500;
-  font-size: 15px;
+  font-size: 1.5rem;
 }
 
 .container {
-  padding: 32px 24px;
+  padding: 3.2rem 2.4rem;
   background-color: #fff;
   text-align: center;
 }
 h1 {
-  font-size: 22px;
+  font-size: 2.2rem;
   font-weight: 900;
   color: #1f2e55;
 }
 .description {
-  margin: 16px 0 24px;
+  margin: 1.6rem 0 2.4rem;
 }
 .annualPlan-info {
   display: flex;
   width: 100%;
-  padding: 17px 16px 16px;
+  padding: 1.7rem 1.6rem 1.6rem;
   background-color: #f7f9ff;
-  border-radius: 11px;
+  border-radius: 1.1rem;
 }
 .annualPlan-info img {
-  width: 48px;
-  height: 48px;
+  width: 4.8rem;
+  height: 4.8rem;
 }
 .annual-change {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  margin-left: 20px;
+  margin-left: 2rem;
   align-items: center;
 }
 .annual-change div {
   display: flex;
   flex-direction: column;
-  gap: 3px;
+  gap: 0.3rem;
 }
 .annual-text {
-  font-size: 14px;
+  font-size: 1.4rem;
   font-weight: 900;
   color: #1f2e55;
   text-align: center;
 }
 .change-btn {
-  height: 20px;
-  font-size: 13px;
+  height: 2rem;
+  font-size: 1.3rem;
   font-weight: bold;
   color: #382ae1;
   text-decoration: underline;
@@ -69,20 +69,20 @@ h1 {
 
 .payment {
   width: 100%;
-  height: 20px;
+  height: 2rem;
   color: #fff;
   background-color: #382ae1;
-  padding: 15px 0 15px 0;
-  border-radius: 11px;
-  box-shadow: 0 20px 20px 0 rgba(56, 42, 225, 0.19);
+  padding: 1.5rem 0 15rem 0;
+  border-radius: 1.1rem;
+  box-shadow: 0 2rem 2rem 0 rgba(56, 42, 225, 0.19);
   font-family: "Red Hat Display", sans-serif;
   font-weight: 900;
-  margin: 24px 0 24px;
+  margin: 2.4rem 0 2.4rem;
 }
 .cancel {
   margin: auto;
-  width: 105px;
-  height: 20px;
+  width: 10.5rem;
+  height: 2rem;
   color: #717fa6;
   font-family: "Red Hat Display", sans-serif;
   font-weight: 900;
@@ -90,6 +90,6 @@ h1 {
 
 @media only screen and (min-width: 1440px) {
   .container {
-    padding: 45px 48px;
+    padding: 4.5rem 4.8rem;
   }
 }

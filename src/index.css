@@ -6,9 +6,13 @@
   box-sizing: border-box;
   font-family: "Red Hat Display", sans-serif;
 }
+html {
+  font-size: 62.5%;
+}
+
 body {
   background-color: #d6e1ff;
-  height: 100vh;
+  min-height: 100vh;
 }
 button {
   all: unset;
